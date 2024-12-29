@@ -35,13 +35,37 @@
 #                   num= num-1    
 
  # Categorize numbers into ranges
-num=[4,2,7,4,54,-6,-77,0,2,12]
-for i in num:
-          if (i>=0 and i<=5):
-                  print(f"{i} is in between 0 and 5")
-          elif (i>5 and i<=10):
-                  print(f"{i} is in between 6 and 10")
-          elif (i>10):
-                  print(f"{i} is greater then 10")
-          else:
-                  print(f"{i} is a negative number")
+# num=[4,2,7,4,54,-6,-77,0,2,12]
+# for i in num:
+#           if (i>=0 and i<=5):
+#                   print(f"{i} is in between 0 and 5")
+#           elif (i>5 and i<=10):
+#                   print(f"{i} is in between 6 and 10")
+#           elif (i>10):
+#                   print(f"{i} is greater then 10")
+#           else:
+#                   print(f"{i} is a negative number")
+
+
+# while True:
+#   number = int(input("Enter a positive number: "))
+#   print(number)
+#   if not number > 0:
+#     break
+
+# for i in range(1,21):
+#           print(i, end=" ")
+#           if (i==15):
+#                   break
+#           else:
+#                   print("is okay")
+# print("is outside the loop")    
+# 
+#               
+# num=int(input("enter any numeric value"))
+# for i in range(1,40,2):
+#           if (i==num):
+#                   print("Breaking the loop at",num)
+#           else:
+                  
+# print("exceeding 40")
