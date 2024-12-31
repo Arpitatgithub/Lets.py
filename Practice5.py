@@ -36,6 +36,19 @@
 #           print(f"Hello{name}")
 # greet("Arpit")          
 
-add = lambda a,b:a+b
-print(add(5,6))
+# add = lambda a,b:a+b
+# print(add(5,6))
 
+# def greet(name, text):
+#           print(f"{name},{text}")
+# greet("Arpit", " How are you")          
+
+# def str(name, date, course, college):
+#           print(f"{name} has successfully completed his {course} training on {date} while learning in {college}")
+# str("Arpit Thappa","8 Apr 2004","Python","SVIET")          
+
+# def str(name,age,contact):
+#           print(f"{age} years old {name} change its contact number to {contact}")
+# str(name=input("enter name "),age=input("enter age "),contact=input("enter contact "))
+
+ 
