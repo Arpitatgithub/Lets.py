@@ -64,3 +64,33 @@
 # num=[1,2,3,4,5,6,7]
 # print(num[0::3])
 
+# num=[1,2,3,4,5,6,7]
+# print(9 in num)
+# print(9 not in num)
+
+# num=[1,2,3,4]
+# num.extend([4,5,6,7])
+# print(num)
+
+# ele=[3,4,5,6,7,9,9.00001]
+# ele.sort()
+# print(ele)
+
+# num=[1,2,3,4,5,6,7]
+# for i in num:
+#           print(i)
+
+# fruits=[1,2,3,4,5,6,7]
+# i = 0
+# while i < len(fruits):
+#        print(fruits[i])
+#        i += 1   
+
+# num=[x for x in range(9)]
+# print(num)
+
+# num=[x for x in range(9) if x%2==0]
+# print(num)
+
+# num=[1,2,3,4,5,6,7]
+# print(sum(num))
