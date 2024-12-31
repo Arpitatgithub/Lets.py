@@ -51,4 +51,16 @@
 #           print(f"{age} years old {name} change its contact number to {contact}")
 # str(name=input("enter name "),age=input("enter age "),contact=input("enter contact "))
 
- 
+# def add(*numbers):
+#           total=sum(numbers)
+#           print(f"{total}")
+# add(1,2,3,4,5,6)           
+
+# def details(**info):
+#           for key, value in info.items():
+#                   print(f"{key}:{value}")
+# details(name="Arpit",age="19",contact="9596925995")                  
+
+# num=[1,2,3,4,5,6,7]
+# print(num[0::3])
+
