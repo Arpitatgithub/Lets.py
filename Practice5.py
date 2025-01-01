@@ -101,3 +101,10 @@
 #           [7,8,9]
 # ]
 # print(matrix[1][2])
+
+fruits = ["apple", "banana", "cherry"]
+
+index = 0
+for fruit in fruits:
+    print(f"Index: {index}, Fruit: {fruit}")
+    index += 1
