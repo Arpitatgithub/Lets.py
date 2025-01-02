@@ -73,3 +73,14 @@
 #                   print("invalid input")
 # print(grades)                                         
 
+
+# try:
+#         num=int(input("Enter a number: "))
+#         if num%2==0:
+#                 print("Number is even")
+#         else:
+#                 print("Number is odd")
+# except ValueError:
+#     print("Invalid input! Please enter a number.")
+
+
