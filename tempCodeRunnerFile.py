@@ -1,1 +1,1 @@
-print(num)
+print(grades)
