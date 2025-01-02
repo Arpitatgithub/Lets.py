@@ -8,9 +8,13 @@
             
  # Modify recursion limit
 
-num={1,2,3,4}
-# num.add(5)
+# num={1,2,3,4}
+# # num.add(5)
 
 
-num.update([4,5,6,7])
-print(num)
+# num.update([4,5,6,7])
+# print(num)
+
+# set={1,4,3}
+# set.pop()
+# print(set)
