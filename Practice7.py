@@ -17,8 +17,24 @@
 # fruit_dict={index:i for index,i in enumerate(fruits) }
 # print(fruit_dict,"\n",fruit_list,"\n",fruits)
 
-import math
+# import math
+# import math as m
+# from math import sqrt
+# from math import sqrt,sum
+# from math import*
+
+
 
 # print(dir(math))
+# result = m.sqrt(int(input("Enter any number ")))
+# print(result)  
+ 
+# import example
 
+def add(a,b):
+     return a+b
+
+x=int(input("Enter first number "))
+y=int(input("Enter second nnumber: "))
+print(f"the sum of {x} and {y} is: ",add(x,y))
 

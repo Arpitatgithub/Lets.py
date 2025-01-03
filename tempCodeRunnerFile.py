@@ -1,2 +1,2 @@
-for index in fruits:
-          print(index)
+x=int(input("Enter first number:"))
+# y=int(input("Enter second number:"))
