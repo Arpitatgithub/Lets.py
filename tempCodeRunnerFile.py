@@ -1,1 +1,1 @@
-x=200
+file.close()
