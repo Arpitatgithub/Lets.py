@@ -60,11 +60,20 @@
 #           print(x)
 # func()  
 
-x=200
-def func():
-          global x
-          x=100
-          print(x)
+# x=200
+# def func():
+#           global x
+#           x=100
+#           print(x)
+         
 
-func()         
-print(x)
+
+# print(x) 
+
+file=open("one","r")
+content=file.read()
+print(content)
+file.close()
+
+
+
