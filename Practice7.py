@@ -31,10 +31,40 @@
  
 # import example
 
-def add(a,b):
-     return a+b
+# def add(a,b):
+#      return a+b
 
-x=int(input("Enter first number "))
-y=int(input("Enter second nnumber: "))
-print(f"the sum of {x} and {y} is: ",add(x,y))
+# x=int(input("Enter first number "))
+# y=int(input("Enter second nnumber: "))
+# print(f"the sum of {x} and {y} is: ",add(x,y))
 
+# import os
+
+# print(os.listdir())
+
+# local and global variables
+# def func():
+#           y=5
+#           print(y)
+
+# func() 
+
+# x=10
+# def func():
+#           print(x)
+# func()      
+
+# def func():
+#           global x
+#           x=200
+#           print(x)
+# func()  
+
+x=200
+def func():
+          global x
+          x=100
+          print(x)
+
+func()         
+print(x)

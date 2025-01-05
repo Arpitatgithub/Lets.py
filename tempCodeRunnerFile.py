@@ -1,2 +1,3 @@
-x=int(input("Enter first number:"))
-# y=int(input("Enter second number:"))
+tal_amount
+year=float(input("Enter number of years: "))
+print(f" Total available balance a
