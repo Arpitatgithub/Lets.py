@@ -84,9 +84,48 @@
 #           content=file.read()
 #           print(content) 
 
-numbers=[1,2,3,4,5,6]
-def sqr(n):
-          return n ** 2
-squared_numbers= list(map(sqr,numbers))
-print(squared_numbers)
- 
+
+# num=[1,2,3,4,5,6]
+# def sqr(n):
+#           return n **2
+# sqroot=list(map(sqr,num))
+# print(sqroot)
+
+# num=[1,2,3,4,5,6]
+# sq_rooot=list(map(lambda x: x ** 2, num))
+# print(sq_rooot)
+
+# num=[1,2,3,4,5,6,-8]
+# def is_even(n):
+#           return n%2 == 0
+# even_num=list(filter(is_even,num))
+# print(even_num)
+
+# num=[1,2,3,4,5,6]
+# even_num=list(filter(lambda x: x%2 ==0,num))
+# print(even_num)
+
+from functools import reduce
+
+# num=[1,2,3,4,5,6]
+# def add(x,y):
+#           return x+y
+# sum=reduce(add,num)
+# print(sum)
+
+# num=[1,2,3,4,5,6]
+# sum=reduce(lambda x,y: x+y,num)
+# print(sum)
+
+#  Find the sum of squares of all even numbers in a list.
+# num=[1,2,3,4,5,6]
+# filtered=list(filter(lambda x:x%2==0,num))
+# square=list(map(lambda x: x**2,filtered))
+# sum=(reduce(lambda x,y:x+y,square))
+# print(filtered,square,sum)
+
+
+
+
+
+
