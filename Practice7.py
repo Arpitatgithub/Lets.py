@@ -70,10 +70,23 @@
 
 # print(x) 
 
-file=open("one","r")
-content=file.read()
-print(content)
-file.close()
+# file=open("example.txt","r")
+# content=file.read()
+# print(content)
+# file.close()
 
 
+# file=open("example.txt","w")
+# file.write("This is the new line ")
+# file.close()
 
+# with open("example.txt","r") as file:
+#           content=file.read()
+#           print(content) 
+
+numbers=[1,2,3,4,5,6]
+def sqr(n):
+          return n ** 2
+squared_numbers= list(map(sqr,numbers))
+print(squared_numbers)
+ 
