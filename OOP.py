@@ -49,20 +49,40 @@
 # Final_grades=report(72,"B+")
 # print(Final_grades.marks,Final_grades.grades)
 
-class index:
-          def __init__(self,Sno,Content):
-                  self.sno=Sno
-                  self.content=Content
+# class index:
+#           def __init__(self,Sno,Content):
+#                   self.sno=Sno
+#                   self.content=Content
 
-Index_1=index(92,"Daffodills")
-print(Index_1.sno,Index_1.content)
+# Index_1=index(92,"Daffodills")
+# print(Index_1.sno,Index_1.content)
           
 
 
+#                             Pillars of OOP
 
 
+# Encapsulation
 
+class BankAccount:
+          def __init__(self,acc_Num,balance):
+                  self.__acc_Num=acc_Num
+                  self.__balance=balance
 
+          def get_balance(self):
+                  return self.__balance
+
+          def deposit(self, amount):
+                  if amount >0:
+                          self.__balance = self.__balance + amount
+                          print(f"{amount} deposited. New balance: {self.__balance}")
+                  else:
+                          print("Invalid Amount")
+
+                  
+account= BankAccount("123456", 100000)
+print("Balance", account.get_balance())
+account.deposit(5000)
 
 
 
