@@ -123,9 +123,3 @@ from functools import reduce
 # square=list(map(lambda x: x**2,filtered))
 # sum=(reduce(lambda x,y:x+y,square))
 # print(filtered,square,sum)
-
-
-
-
-
-
