@@ -10,6 +10,6 @@
 # b=a
 # print(a is b)
 
-a=5.387654
-b=5.387654
-print(a is b)
+# a=5.387654
+# b=5.387654
+# print(a is b)
