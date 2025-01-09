@@ -1,1 +1,1 @@
-print(a == b)
+create a programme to add 2 numbers
