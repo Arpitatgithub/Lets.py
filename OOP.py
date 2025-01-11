@@ -65,20 +65,20 @@
 # Encapsulation
 
 
-class BankAccount:
-          def __init__(self,acc_no,balance):
-                  self.__acc_no=acc_no
-                  self.__balance=balance
-          def get_balance(self):
-                  return self.get_balance
-          def deposit(self,amount):
-                  if amount >0:
-                          self.__balance +=amount
-                          print(f"{amount} deposited. New balance is: {self.__balance}")
+# class BankAccount:
+#           def __init__(self,acc_no,balance):
+#                   self.__acc_no=acc_no
+#                   self.__balance=balance
+#           def get_balance(self):
+#                   return self.get_balance
+#           def deposit(self,amount):
+#                   if amount >0:
+#                           self.__balance +=amount
+#                           print(f"{amount} deposited. New balance is: {self.__balance}")
 
-account=BankAccount("1233445",100000)
-print("balance", account.get_balance)
-account.deposit(5000)
+# account=BankAccount("1233445",100000)
+# print("balance", account.get_balance)
+# account.deposit(5000)
 
 
                                    
