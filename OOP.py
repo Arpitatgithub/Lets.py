@@ -86,29 +86,29 @@
 
 
 # Base Class
-class Animal:
-    def speak(self):
-        print("Animal speaks")
+# class Animal:
+#     def speak(self):
+#         print("Animal speaks")
 
-# Derived Class
-class Dog(Animal):
-    def bark(self):
-        print("Dog barks")
+# # Derived Class
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog barks")
 
-# Derived Class
-class Cat(Animal):
-    def meow(self):
-        print("Cat meows")
+# # Derived Class
+# class Cat(Animal):
+#     def meow(self):
+#         print("Cat meows")
 
-# Creating objects
-dog = Dog()
-cat = Cat()
+# # Creating objects
+# dog = Dog()
+# cat = Cat()
 
-dog.speak()  # Inherited from Animal class
-dog.bark()
+# dog.speak()  # Inherited from Animal class
+# dog.bark()
 
-cat.speak()  # Inherited from Animal class
-cat.meow()
+# cat.speak()  # Inherited from Animal class
+# cat.meow()
 
                   
 
