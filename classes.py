@@ -34,3 +34,21 @@
 # b.info()
 # c.info()
 
+class BankAccount:
+          def __init__(self, Acc_num, Balance=9000):
+                  self.Acc_num=Acc_num
+                  self.Balance=Balance
+          def deposit(self, Amount):
+                  self.Balance += Amount
+                  print(f"Deposited: {Amount}. New Balance: {self.Balance}")
+          def withdrawl(self, Amount):
+                  if Amount >= self.Balance :
+                          print("Insuffecient Funds!")
+                  else:
+                          self.Balance -= Amount
+                          print(f"Withdrawl Amount: {Amount}. New Balance: {self.Balance}")
+          def get_balance(self):
+                  return self.balance                     
+Acc1=BankAccount(3150)
+Acc1.withdrawl(1000) 
+Acc1.deposit(1000)                  
