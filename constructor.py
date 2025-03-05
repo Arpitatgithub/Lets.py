@@ -10,3 +10,14 @@
 
 # a.info()
 # b.info()
+
+class school:
+          def __init__(self,classes,students,staff):
+                  self.classes=classes  #attributes
+                  self.students=students
+                  self.staff=staff
+          def info(self):
+                  print(f"{self.classes} classes, {self.students} students and {self.staff} members")            #method
+
+playway=school(12,350,42)
+playway.info()                   
