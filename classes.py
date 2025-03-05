@@ -54,15 +54,16 @@
 # Acc1.deposit(1000)    
 # 
 
-class car:
-          def __init__(self,brand,model,mileage):
-                  self.brand=brand
-                  self.model=model
-                  self.mileage=mileage
-          def fuel_needed(self,distance):
-                  fuel = distance/self.mileage
-                  return f"Fuel needed for {distance} Km is {fuel} Litres"
-          #         return f"{fuel}"
+# class car:
+#           def __init__(self,brand,model,mileage):
+#                   self.brand=brand
+#                   self.model=model
+#                   self.mileage=mileage
+#           def fuel_needed(self,distance):
+#                   fuel = distance/self.mileage
+#                   return f"Fuel needed for {distance} Km is {fuel} Litres"
+#           #         return f"{fuel}"
 
-first=car("Audi","Q7",15) 
-print(first.fuel_needed(150))
+# first=car("Audi","Q7",15) 
+# print(first.fuel_needed(150))
+ 

@@ -1,1 +1,1 @@
-create a programme to add 2 numbers
+print(first.fuel_needed(150))
