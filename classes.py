@@ -51,4 +51,18 @@
 #                   return self.balance                     
 # Acc1=BankAccount(3150)
 # Acc1.withdrawl(1000) 
-# Acc1.deposit(1000)                  
+# Acc1.deposit(1000)    
+# 
+
+class car:
+          def __init__(self,brand,model,mileage):
+                  self.brand=brand
+                  self.model=model
+                  self.mileage=mileage
+          def fuel_needed(self,distance):
+                  fuel = distance/self.mileage
+                  return f"Fuel needed for {distance} Km is {fuel} Litres"
+          #         return f"{fuel}"
+
+first=car("Audi","Q7",15) 
+print(first.fuel_needed(150))
