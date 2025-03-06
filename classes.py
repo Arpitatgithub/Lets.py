@@ -67,3 +67,16 @@
 # first=car("Audi","Q7",15) 
 # print(first.fuel_needed(150))
  
+class rect:
+          def __init__(self, length, width):
+                  self.length=length
+                  self.width=width
+          def area(self):
+                  area=self.length*self.width
+                  return area
+          def perimeter(self):
+                  Peri= 2*(self.length + self.width)
+                  return Peri
+
+R1=rect(4,6)
+print(R1.area(),",",R1.perimeter())           
