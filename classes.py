@@ -81,15 +81,15 @@
 # R1=rect(4,6)
 # print(R1.area(),",",R1.perimeter())           
 
-class Book:
-          def __init__(self,title, author, price):
-                  self.title=title
-                  self.author=author
-                  self.price=price
-          def apply_discount(self,percent):
-                  discount_amount = (percent / 100) * self.price
-                  self.price -= discount_amount
-                  return f"{self.price}"
+# class Book:
+#           def __init__(self,title, author, price):
+#                   self.title=title
+#                   self.author=author
+#                   self.price=price
+#           def apply_discount(self,percent):
+#                   discount_amount = (percent / 100) * self.price
+#                   self.price -= discount_amount
+#                   return f"{self.price}"
 
-book1=Book("50 Shades", "Peter Parker", 100)
-print(book1.apply_discount(10))                  
+# book1=Book("50 Shades", "Peter Parker", 100)
+# print(book1.apply_discount(10))                  
