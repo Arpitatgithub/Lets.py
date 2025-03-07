@@ -93,3 +93,20 @@
 
 # book1=Book("50 Shades", "Peter Parker", 100)
 # print(book1.apply_discount(10))                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
