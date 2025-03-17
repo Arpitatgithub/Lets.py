@@ -94,6 +94,16 @@
 # book1=Book("50 Shades", "Peter Parker", 100)
 # print(book1.apply_discount(10))                  
 
+# class BankAccount:
+#     def __init__(self, account_number, balance):
+#         self.account_number = account_number  # Public
+#         self.balance = balance  # Public
+
+# acc = BankAccount("12345", 1000)
+# print(acc.balance)  # ✅ 1000 (Can access directly)
+
+# acc.balance = -500  # ❌ Allowed, but incorrect data!
+# print(acc.balance)  # ❌ -500 (Wrong balance!)
 
 
 
