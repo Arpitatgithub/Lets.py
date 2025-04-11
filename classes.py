@@ -81,19 +81,19 @@
 # R1=rect(4,6)
 # print(R1.area(),",",R1.perimeter())           
 
-class Book:
-          def __init__(self,title, author, price):
-                  self.title=title
-                  self.author=author
-                  self.price=price
-          def apply_discount(self,percent):
-                  discount_amount = (percent / 100) * self.price
-                  self.price -= discount_amount
-                  return f"{self.price}"
-price=int(input("Enter price: "))
-discount_amount=int(input("Enter Discount Percentage: "))
-book1=Book("50 Shades", "Peter Parker", price)
-print(book1.apply_discount(discount_amount))                  
+# class Book:
+#           def __init__(self,title, author, price):
+#                   self.title=title
+#                   self.author=author
+#                   self.price=price
+#           def apply_discount(self,percent):
+#                   discount_amount = (percent / 100) * self.price
+#                   self.price -= discount_amount
+#                   return f"{self.price}"
+# price=int(input("Enter price: "))
+# discount_amount=int(input("Enter Discount Percentage: "))
+# book1=Book("50 Shades", "Peter Parker", price)
+# print(book1.apply_discount(discount_amount))                  
 
 # class BankAccount:
 #     def __init__(self, account_number, balance):
@@ -105,7 +105,6 @@ print(book1.apply_discount(discount_amount))
 
 # acc.balance = -500  # ❌ Allowed, but incorrect data!
 # print(acc.balance)  # ❌ -500 (Wrong balance!)
-
 
 
 
